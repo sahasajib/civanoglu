@@ -1,0 +1,128 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@font-face {
+    font-family: 'Studio Sans DEMO';
+    src: url('../fonts/StudioSansDEMO.woff2') format('woff2'),
+    url('../fonts/StudioSansDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url('../fonts/LiberationSerif-Bold.woff2') format('woff2'),
+    url('../fonts/LiberationSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Liberation Serif';
+    src: url('../fonts/LiberationSerif-Regular.woff2') format('woff2'),
+    url('../fonts/LiberationSerif-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Liberation Serif',sans-serif;
+    font-weight: bold;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+
+.section-heading{
+    @apply font-bold text-center text-3xl md:text-4xl mb-10
+}
+
+.btn{
+    @apply bg-gray-800 text-white px-6 py-2 rounded inline-block text-center
+}
+
+.fullwidth-btn{
+    @apply btn w-full
+}
+.sticky-header-active{
+    background-color: #fff;
+}
+.sticky-header-active a{
+    color: #333;
+}
+
+.general-header a {
+    color: #000;
+}
+
+.general-header {
+    background-color: #fff;
+}
+
+.home-search label {
+    display: none;
+}
+
+
+.form-head {
+    display: block;
+}
+
+.vartical-search-form .form-head {
+    display: block;
+}
+
+.vartical-search-form .form-div-head {
+    display: block;
+    margin-bottom: 15px;
+    min-width: 100%;
+    margin-left: 12px;
+}
+
+.vartical-search-form .form-border {
+    border: 0;
+}
+
+.vartical-search-form select {
+    min-width: 100%;
+}
+
+.vartical-search-form form-div {
+    display: block;
+    margin-bottom: 15px;
+    min-width: 100%;
+}
+.vartical-search-form .scarch-submit{
+    display: block;
+    margin-left:20px ;
+}
+.vartical-search-form .button {
+    margin-top: 15px;
+    min-width: 100%;
+}
+
+.vartical-search-form .form-input {
+    min-width: 100%;
+}
+.form-label{
+    @apply text-sm text-gray-500 mb-2 uppercase cursor-pointer block
+}
+.form-inputs{
+    @apply border border-gray-400 px-4 py-2 w-full
+}
+.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto}.slick-track:after,.slick-track:before{display:table;content:''}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}
+.single-gallery-item {
+    height: 600px;
+}
+.single-thumbnail-item{
+    height: 80px;
+}
